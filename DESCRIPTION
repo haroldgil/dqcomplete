@@ -1,0 +1,16 @@
+Package: dqcomplete
+Version: 0.0.0.9000
+Title: Create an interactive heatmap of percent completeness values
+Description: Takes a dataset and lets you compute percent completeness values of variables stratified by one specified variable.
+Authors@R: person("Harold", "Gil", email = "HGil@marionhealth.org", role = c("aut", "cre"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+RoxygenNote: 6.0.1
+Depends: R (>= 2.10)
+Imports: 
+    tidyverse,
+    plotly,
+    grDevices,
+    dplyr
